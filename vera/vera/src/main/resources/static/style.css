@@ -1,0 +1,54 @@
+
+#section {
+	height: 25vh;
+	display: flex;
+	content: center;
+}
+
+#body  {
+  width: 90vw;
+  display: flex;
+  direction: column;
+  content: center;
+  }
+  
+  #menu ul li {
+  color: black;
+  font-family: sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  padding: 26px 30px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-bottom: 0.3rem;
+}
+
+
+#menu_sarasas:hover {
+  background: #ca5324;
+}
+#menu_punktas {
+  background: linear-gradient(to right, #ca5324, #f8ab64);
+}
+#menu_punktas :hover {
+  background: linear-gradient(to left, #ca5324, #f8ab64);
+}
+#menu_punktas  {
+  background: linear-gradient(to right, #24caae, #ffe7c0);
+}
+#menu_punktas:hover {
+  background: linear-gradient(to left, #24caae, #ffe7c0);
+}
+#menu_punktas {
+  background: linear-gradient(to right, #2450ca, #38a3a7);
+}
+#menu_punktas :hover  {
+  background: linear-gradient(to left, #2450ca, #38a3a7); 
+}
+#menu_punktas {
+  background: linear-gradient(to right, #0baae9, #6473f8);
+}
+#menu_punktas :hover  {
+  background: linear-gradient(to left, #0baae9, #6473f8);
+}

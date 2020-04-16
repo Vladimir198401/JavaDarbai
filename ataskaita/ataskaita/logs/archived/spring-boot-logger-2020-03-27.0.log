@@ -1,0 +1,79 @@
+2020-03-27 00:34:04,108 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12h31s613ms710µs800ns).
+2020-03-27 06:15:59,462 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h1m55s88ms452µs600ns).
+2020-03-27 10:30:07,854 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h14m11s317ms863µs300ns).
+2020-03-27 11:54:16,086 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58m38s193ms341µs900ns).
+2020-03-27 13:18:26,617 INFO org.springframework.boot.StartupInfoLogger [main] Starting AtaskaitaApplication on LAPTOP-1P3LTHV2 with PID 16600 (C:\Users\Vladimir\Downloads\ataskaita\ataskaita\target\classes started by Vladimir in C:\Users\Vladimir\Downloads\ataskaita\ataskaita)
+2020-03-27 13:18:26,620 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-27 13:18:27,264 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-27 13:18:27,323 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 50ms. Found 4 JPA repository interfaces.
+2020-03-27 13:18:28,230 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-03-27 13:18:28,239 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-27 13:18:28,240 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-27 13:18:28,240 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-27 13:18:28,377 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-27 13:18:28,377 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1709 ms
+2020-03-27 13:18:28,598 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-27 13:18:28,686 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-27 13:18:28,817 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-27 13:18:28,935 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-27 13:18:29,081 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-27 13:18:29,100 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-27 13:18:29,799 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-27 13:18:29,804 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-27 13:18:30,251 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-27 13:18:30,386 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-27 13:18:30,472 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-03-27 13:18:30,710 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-03-27 13:18:30,950 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-27 13:18:30,952 INFO org.springframework.boot.StartupInfoLogger [main] Started AtaskaitaApplication in 4.788 seconds (JVM running for 5.143)
+2020-03-27 13:32:43,372 INFO org.springframework.boot.StartupInfoLogger [main] Starting AtaskaitaApplication on LAPTOP-1P3LTHV2 with PID 21072 (C:\Users\Vladimir\Downloads\ataskaita\ataskaita\target\classes started by Vladimir in C:\Users\Vladimir\Downloads\ataskaita\ataskaita)
+2020-03-27 13:32:43,376 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-27 13:32:44,339 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-27 13:32:44,446 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 92ms. Found 4 JPA repository interfaces.
+2020-03-27 13:32:45,668 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-03-27 13:32:45,681 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-27 13:32:45,682 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-03-27 13:32:45,683 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-27 13:32:45,891 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-03-27 13:32:45,892 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2458 ms
+2020-03-27 13:32:46,163 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-27 13:32:46,280 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-27 13:32:46,463 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-27 13:32:46,640 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-27 13:32:46,876 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-27 13:32:46,897 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-27 13:32:47,980 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-27 13:32:47,989 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-27 13:32:48,608 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-27 13:32:48,788 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-27 13:32:48,900 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-03-27 13:32:49,240 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-03-27 13:32:49,538 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-27 13:32:49,539 INFO org.springframework.boot.StartupInfoLogger [main] Started AtaskaitaApplication in 6.831 seconds (JVM running for 7.379)
+2020-03-27 13:34:15,826 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-27 13:34:15,828 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-03-27 13:34:15,834 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2020-03-27 13:42:48,066 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m1s27ms37µs300ns).
+2020-03-27 17:20:17,720 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h26m3s201ms483µs900ns).
+2020-03-27 20:23:11,237 INFO org.springframework.boot.StartupInfoLogger [main] Starting AtsakymaiRepositoryTest on LAPTOP-1P3LTHV2 with PID 15700 (started by Vladimir in C:\Users\Vladimir\Downloads\ataskaita\ataskaita)
+2020-03-27 20:23:11,237 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-03-27 20:23:12,240 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-27 20:23:12,345 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 90ms. Found 4 JPA repository interfaces.
+2020-03-27 20:23:13,275 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-27 20:23:13,431 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-27 20:23:13,689 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-27 20:23:14,173 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-03-27 20:23:14,378 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-03-27 20:23:14,432 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-27 20:23:15,580 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-27 20:23:15,593 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-27 20:23:16,575 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-27 20:23:17,077 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-27 20:23:17,251 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-03-27 20:23:17,972 INFO org.springframework.boot.StartupInfoLogger [main] Started AtsakymaiRepositoryTest in 7.252 seconds (JVM running for 9.707)
+2020-03-27 20:23:18,618 WARN org.hibernate.persister.entity.AbstractEntityPersister [main] HHH000502: The [klausimai] property of the [testai.ataskaita.Atsakymai] entity was modified, but it won't be updated because the property is immutable.
+2020-03-27 20:23:18,697 WARN org.hibernate.persister.entity.AbstractEntityPersister [main] HHH000502: The [klausimai] property of the [testai.ataskaita.Atsakymai] entity was modified, but it won't be updated because the property is immutable.
+2020-03-27 20:23:18,716 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-27 20:23:18,720 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-27 20:23:18,725 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-03-27 20:23:18,753 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nezinomibes pasaulis</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+     <section>
+		<div id="menu">
+			<ul id="menu_sarasas">
+				<li id="menu_punktas" th:each="menu_item : ${lst_menu}">			
+					<a th:href="${menu_item.itemurl()}" th:text="${menu_item.naujasPavadinimas()}"></a> 
+			</ul>
+		</div>
+    </section>
+  </body>
+</html>

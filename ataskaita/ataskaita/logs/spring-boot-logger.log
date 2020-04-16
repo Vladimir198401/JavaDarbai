@@ -1,0 +1,52 @@
+2020-04-02 00:35:39,221 INFO org.springframework.boot.StartupInfoLogger [main] Starting AtsakymaiRepositoryTest on LAPTOP-1P3LTHV2 with PID 20844 (started by Vladimir in C:\Users\Vladimir\Downloads\ataskaita\ataskaita)
+2020-04-02 00:35:39,228 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-04-02 00:35:40,205 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-02 00:35:40,305 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 87ms. Found 4 JPA repository interfaces.
+2020-04-02 00:35:41,201 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-02 00:35:41,331 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-02 00:35:41,545 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-02 00:35:41,984 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-04-02 00:35:42,199 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-04-02 00:35:42,222 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 00:35:43,323 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-02 00:35:43,336 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 00:35:44,231 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-02 00:35:44,714 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-02 00:35:44,883 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-04-02 00:35:45,538 INFO org.springframework.boot.StartupInfoLogger [main] Started AtsakymaiRepositoryTest in 6.815 seconds (JVM running for 8.357)
+2020-04-02 00:35:46,079 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Error: 1452, SQLState: 23000
+2020-04-02 00:35:46,080 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] Cannot add or update a child row: a foreign key constraint fails (`testas`.`atsakymai`, CONSTRAINT `atsakymai_ibfk_1` FOREIGN KEY (`klausimai_id`) REFERENCES `klausimai` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+2020-04-02 00:35:46,108 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Error: 1452, SQLState: 23000
+2020-04-02 00:35:46,109 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] Cannot add or update a child row: a foreign key constraint fails (`testas`.`atsakymai`, CONSTRAINT `atsakymai_ibfk_1` FOREIGN KEY (`klausimai_id`) REFERENCES `klausimai` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+2020-04-02 00:35:46,125 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Error: 1452, SQLState: 23000
+2020-04-02 00:35:46,126 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] Cannot add or update a child row: a foreign key constraint fails (`testas`.`atsakymai`, CONSTRAINT `atsakymai_ibfk_1` FOREIGN KEY (`klausimai_id`) REFERENCES `klausimai` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+2020-04-02 00:35:46,141 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-02 00:35:46,144 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 00:35:46,147 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-04-02 00:35:46,163 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-04-02 00:38:32,961 INFO org.springframework.boot.StartupInfoLogger [main] Starting AtsakymaiRepositoryTest on LAPTOP-1P3LTHV2 with PID 21096 (started by Vladimir in C:\Users\Vladimir\Downloads\ataskaita\ataskaita)
+2020-04-02 00:38:32,964 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-04-02 00:38:33,901 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-02 00:38:33,997 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 84ms. Found 4 JPA repository interfaces.
+2020-04-02 00:38:34,908 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-02 00:38:35,033 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-02 00:38:35,247 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-02 00:38:35,666 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-04-02 00:38:35,908 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-04-02 00:38:35,930 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-02 00:38:37,036 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-02 00:38:37,049 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 00:38:38,019 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-02 00:38:38,488 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-02 00:38:38,640 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2020-04-02 00:38:39,329 INFO org.springframework.boot.StartupInfoLogger [main] Started AtsakymaiRepositoryTest in 6.888 seconds (JVM running for 8.385)
+2020-04-02 00:38:39,894 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Error: 1452, SQLState: 23000
+2020-04-02 00:38:39,895 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] Cannot add or update a child row: a foreign key constraint fails (`testas`.`atsakymai`, CONSTRAINT `atsakymai_ibfk_1` FOREIGN KEY (`klausimai_id`) REFERENCES `klausimai` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+2020-04-02 00:38:39,925 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Error: 1452, SQLState: 23000
+2020-04-02 00:38:39,926 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] Cannot add or update a child row: a foreign key constraint fails (`testas`.`atsakymai`, CONSTRAINT `atsakymai_ibfk_1` FOREIGN KEY (`klausimai_id`) REFERENCES `klausimai` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+2020-04-02 00:38:39,941 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Error: 1452, SQLState: 23000
+2020-04-02 00:38:39,942 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] Cannot add or update a child row: a foreign key constraint fails (`testas`.`atsakymai`, CONSTRAINT `atsakymai_ibfk_1` FOREIGN KEY (`klausimai_id`) REFERENCES `klausimai` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+2020-04-02 00:38:39,960 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-02 00:38:39,962 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-02 00:38:39,966 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-04-02 00:38:39,985 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<style>
+	label {
+		display: block;
+		width: 100%;
+	}
+	input[type="text"], input.frm_button, hr {
+	
+		width: 200px;
+		margin-right: auto;
+	}
+</style>
+<body>
+	<h3>Trąsos</h3>
+	<form method="POST" action="">
+		<label for="pav">Trąsos pavadinimas</label>
+		<input name="pav" type="text">
+		<label for="atstumas_km">Atstumas, km</label>
+		<input name="atstumas_km" type="text">	
+		<label for="sukilimas">Sukilimas</label>
+		<input name="sukilimas" type="text">
+		<hr align="left">
+		<input type="submit" name="pildyti" class="frm_button" value="papildyti">
+	</form>
+	<table>
+		<tr>
+			<th>
+				veiksmai
+			</th>
+			<th>
+				pav
+			</th>			
+			<th>
+				atstumas<br>
+				km.
+			</th>
+			<th>
+				sukilimas<br>
+				m.
+			</th>
+		</tr>
+		<tr th:each="trasa : ${lst}">
+			<td>
+				<input type="button" class="keisti" value="keisti">
+				<input type="button" class="keisti" value="šalinti">				
+			</td>
+			<td th:text="${trasa.getPav()}"></td>
+			<td th:text="${trasa.getAtstumas_km()}"></td>
+			<td th:text="${trasa.getSukilimas()}"></td>			
+		</tr>
+	</table>
+</body>
+</html>

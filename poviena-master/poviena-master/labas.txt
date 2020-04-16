@@ -1,0 +1,6 @@
+﻿
+
+	Labas tekstinis faile
+	bet koks tekstas su tekstų redaktoriumi Scite (pakeista eilutė)
+	papildyta eilutė
+
